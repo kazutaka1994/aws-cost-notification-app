@@ -13,7 +13,7 @@ from boto3.dynamodb.types import TypeDeserializer
 logger = Logger()
 
 COST_METRICS_VALUE = os.getenv("COST_METRICS_VALUE")
-LINE_API_URL = os.getenv("LINE_API_URL", "https://api.line.me/v2/bot/message/push")
+LINE_API_URL = os.getenv("LINE_API_URL")
 SETTINGS_TABLE = os.getenv("SETTINGS_TABLE")
 
 
